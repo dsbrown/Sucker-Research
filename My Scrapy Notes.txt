@@ -1,0 +1,43 @@
+scrapy startproject <<name>>
+cd suck
+scrapy genspider example example.com
+
+scrapy genspider cl seattle.craigslist.org
+Created spider 'cl' using template 'basic' in module:
+  suck.spiders.cl
+
+
+cd crawly
+scrapy genspider example example.com
+
+------      ------      ------      ------      ------
+
+	from scrapy.spiders import BaseSpider
+
+	class ClSpider(BaseSpider):
+	    name = "cl"
+	    allowed_domains = ["craigslist.org"]
+	    start_urls = [
+	        "https://seattle.craigslist.org/search/see/cto",
+	    ]
+
+	    def parse(self, response):
+	    	print "------------------------------------------------------------------"
+	    	print "Title %s"%response.selector.xpath('//title/text()').extract()[0]
+	    	print "------------------------------------------------------------------"    	
+	        filename = response.url.split("/")[-1]+".html"
+	        open(filename, 'wb').write(response.body)
+
+
+$ scrapy crawl cl
+
+$ scrapy shell "https://seattle.craigslist.org/search/see/cto"
+$ scrapy shell "https://seattle.craigslist.org/search/cto"
+
+form = response.xpath('//body/section/form')
+for p in form.xpath('.//a'):
+    print p
+
+
+To crawl: 
+	scrapy crawl cl_crawler -o items.json -t json

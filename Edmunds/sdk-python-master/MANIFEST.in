@@ -1,0 +1,5 @@
+include LICENSE
+include MANIFEST
+include README.md
+include requirements.txt
+include edmunds/examples/*

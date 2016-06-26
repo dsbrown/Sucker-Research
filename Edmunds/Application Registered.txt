@@ -1,0 +1,54 @@
+Application Registered!
+
+Your API keys are:
+The Complete API Set: Public
+Key: q9m4x8kukp5qb5e3a9rkxpwa
+
+Application
+    VehicleMarketAnalysis
+Key:
+    q9m4x8kukp5qb5e3a9rkxpwa 
+Secret:
+    54xpnzcMTAgxRhPEDjVac6x3 
+Status:
+    active 
+Created:
+    5 seconds ago 
+
+Key Rate Limits
+10	Calls per second
+5,000	Calls per day
+
+Carcode API: Carcode default
+Key: r2xtwkjfsa53fmsq2e28w2t8
+
+Application
+    VehicleMarketAnalysis
+Key:
+    r2xtwkjfsa53fmsq2e28w2t8 
+Status:
+    waiting 
+Created:
+    4 seconds ago 
+
+Key Rate Limits
+2	Calls per second
+5,000	Calls per day
+
+Thank you for registering your application!  You can find your key(s) below.
+
+API KEY: r2xtwkjfsa53fmsq2e28w2t8
+Status: waiting
+
+
+Please refer to our documentation for instructions on using your new key(s).
+
+Thank you for registering your application! You can find your key(s) below.
+
+API KEY: q9m4x8kukp5qb5e3a9rkxpwa
+Shared secret: 54xpnzcMTAgxRhPEDjVac6x3
+Status: active
+
+
+Please refer to our documentation for instructions on using your new key(s).
+
