@@ -1,0 +1,16 @@
+{
+  "name": "vehicle-ymm",
+  "version": "0.0.1",
+  "description": "Vehicle years, makes, models, and trims.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianshaler/vehicle-ymm"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "event-stream": "^3.3.0",
+    "lodash": "^3.5.0"
+  }
+}
